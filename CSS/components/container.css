@@ -1,0 +1,35 @@
+
+.container {
+    max-width: 700px;
+    width: 100%; 
+    margin: auto; 
+    padding: 20px; 
+}
+
+@media (max-width: 960px) {
+    .container {
+        max-width: 600px; 
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        max-width: 500px; 
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        max-width: 100%; 
+        padding: 10px; 
+    }
+}
+
+.img-container, 
+img { 
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+    margin: auto; 
+    text-align: center; 
+}
